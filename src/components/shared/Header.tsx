@@ -11,7 +11,7 @@ export default function Header() {
         <Link href="/" className="flex items-center space-x-3 rtl:space-x-reverse">
             <Image
                 className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert h-8"
-                src="/next.svg"
+                src="/tedxps_logo.png"
                 alt="Next.js Logo"
                 width={180}
                 height={37}
@@ -21,7 +21,7 @@ export default function Header() {
       </h1>
       <nav className="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
           <Link
-            className="block py-2 px-3 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white md:dark:text-blue-500"
+            className="block py-2 px-3 text-white rounded md:bg-transparent  md:p-0 dark:text-white"
             key={2}
             href={{pathname: "/survey"}}
             prefetch={false}
@@ -29,14 +29,14 @@ export default function Header() {
             {"Form Library"}
           </Link>
           <Link
-            className="block py-2 px-3 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white md:dark:text-blue-500"
+            className="block py-2 px-3 text-white  rounded md:bg-transparent  md:p-0 dark:text-white m"
             key={3}
             href={{pathname: "/creator"}}
             prefetch={false}
           >
             {"Survey Creator"}
           </Link>
-          <Link
+          {/* <Link
             className="block py-2 px-3 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white md:dark:text-blue-500"
             key={4}
             href={{pathname: "/dashboard"}}
@@ -59,7 +59,7 @@ export default function Header() {
             prefetch={false}
           >
             {"PDF Generator"}
-          </Link>
+          </Link> */}
       </nav>
     </header>
   )
