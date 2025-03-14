@@ -8,13 +8,13 @@ export const json ={
         {
           "type": "text",
           "name": "email",
-          "title": "Email *",
+          "title": "Email",
           "isRequired": true
         },
         {
           "type": "text",
           "name": "name_ic",
-          "title": "Name as per IC *",
+          "title": "Name as per IC",
           "isRequired": true
         },
         {
@@ -36,7 +36,7 @@ export const json ={
         {
           "type": "dropdown",
           "name": "age_group",
-          "title": "Age Group *",
+          "title": "Age Group",
           "isRequired": true,
           "choices": [
             "Under 18",
@@ -51,7 +51,7 @@ export const json ={
         {
           "type": "text",
           "name": "contact",
-          "title": "Contact Number *",
+          "title": "Contact Number",
           "isRequired": true,
           "placeHolder": "e.g. 60123456789"
         },
@@ -68,7 +68,7 @@ export const json ={
         {
           "type": "text",
           "name": "education",
-          "title": "Highest Education Background *",
+          "title": "Highest Education Background",
           "isRequired": true,
           "placeHolder": "e.g. Bachelor of Arts major in communications and media studies"
         }
@@ -80,13 +80,13 @@ export const json ={
         {
           "type": "text",
           "name": "mandarin_proficiency",
-          "title": "Can you read and write in Mandarin? *",
+          "title": "Can you read and write in Mandarin?",
           "isRequired": true
         },
         {
           "type": "text",
           "name": "current_industry",
-          "title": "Current Working Industry/Study *",
+          "title": "Current Working Industry/Study",
           "isRequired": true,
           "placeHolder": "If you are a student, please mention your course."
         },
@@ -103,7 +103,7 @@ export const json ={
         {
           "type": "radiogroup",
           "name": "volunteer_preference",
-          "title": "Which option best describes your preference for joining us as a volunteer in TEDxPetalingStreet? *",
+          "title": "Which option best describes your preference for joining us as a volunteer in TEDxPetalingStreet?",
           "isRequired": true,
           "choices": [
             "I want to join a role that is more relevant to what I studied/I am working",
@@ -123,7 +123,7 @@ export const json ={
         {
           "type": "dropdown",
           "name": "first_choice",
-          "title": "[FIRST CHOICE] In which group do you wish to join? *",
+          "title": "[FIRST CHOICE] In which group do you wish to join?",
           "isRequired": true,
           "choices": [
             "Editorial",
@@ -144,7 +144,7 @@ export const json ={
         {
           "type": "dropdown",
           "name": "second_choice",
-          "title": "[SECOND CHOICE] In which group do you wish to join? *",
+          "title": "[SECOND CHOICE] In which group do you wish to join?",
           "isRequired": true,
           "choices": [
             "Editorial",
@@ -215,7 +215,7 @@ export const json ={
         {
           "type": "radiogroup",
           "name": "social_media_experience",
-          "title": "Have you previously worked on social media post design and layout design? *",
+          "title": "Have you previously worked on social media post design and layout design?",
           "isRequired": true,
           "choices": [
             "Yes",
@@ -245,7 +245,7 @@ export const json ={
         {
           "type": "radiogroup",
           "name": "photography_videography",
-          "title": "For Photography & Videography: Are you more specialized in Photography/Photos, Filming/Videos, or Both? *",
+          "title": "For Photography & Videography: Are you more specialized in Photography/Photos, Filming/Videos, or Both?",
           "isRequired": true,
           "choices": [
             "Photography/Photos",
@@ -275,7 +275,7 @@ export const json ={
         {
           "type": "radiogroup",
           "name": "customer_service",
-          "title": "Are you able to do customer service related work? *",
+          "title": "Are you able to do customer service related work?",
           "isRequired": true,
           "choices": [
             "Yes",
@@ -285,7 +285,7 @@ export const json ={
         {
           "type": "radiogroup",
           "name": "liaison_teacher",
-          "title": "Can you act as a liaison officer for teachers from schools attending the event? *",
+          "title": "Can you act as a liaison officer for teachers from schools attending the event?",
           "isRequired": true,
           "choices": [
             "Yes",
@@ -295,7 +295,7 @@ export const json ={
         {
           "type": "radiogroup",
           "name": "note_taking",
-          "title": "Can you take notes/minutes at meetings (e.g., at Timeless Design near LRT PWTC on a weekday evening)? *",
+          "title": "Can you take notes/minutes at meetings (e.g., at Timeless Design near LRT PWTC on a weekday evening)?",
           "isRequired": true,
           "choices": [
             "Yes",
@@ -360,7 +360,7 @@ export const json ={
         {
           "type": "radiogroup",
           "name": "volunteer_management_division",
-          "title": "Within the Volunteer Management Team, which division would you prefer? *",
+          "title": "Within the Volunteer Management Team, which division would you prefer?",
           "isRequired": true,
           "choices": [
             "Documentation Team",
@@ -390,7 +390,7 @@ export const json ={
         {
           "type": "checkbox",
           "name": "interview_slots",
-          "title": "Preferred interview date and time *",
+          "title": "Preferred interview date and time",
           "isRequired": true,
           "choices": [
             "23/3 Slot A - 11am",
@@ -405,7 +405,7 @@ export const json ={
         {
           "type": "checkbox",
           "name": "major_events",
-          "title": "Availability for major events *",
+          "title": "Availability for major events",
           "isRequired": true,
           "choices": [
             "24 May 2025 | Orientation Day",
